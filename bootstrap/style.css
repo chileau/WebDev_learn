@@ -1,0 +1,26 @@
+.size{
+    font-size: 2em;
+    padding: 45%;
+    text-align: center;
+}
+.img{
+    width: 30%;
+    height: 90%;
+}
+.outer-div{
+    background-color: black;
+    height: 500px;
+
+}
+.inner-div1{
+    background-color: chocolate;
+    height: 100px;
+}
+.inner-div2 {
+    background-color: coral;
+    height: 100px;
+}
+.inner-div3 {
+    background-color: beige;
+    height: 100px;
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #363062;
+    color: #E9D5CA;
+    font-size: 20px;
+    width: 68%;
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    align-items: center;
+}
+
+.TitleBlock h1{
+    font-size: 3rem;
+    font-family: 'Bangers', cursive;
+    margin: 4rem 0 lrem;
+    font-weight: 100;
+}
+
+.TitleBlock__Container{
+    display: flex;
+    justify-content: space around;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #E9D5CA;
+}
+.TitleBlock__Description{
+    font-size: 1rem;
+    color:rgb(196,196,196);
+    width: 200px;
+}
+
+.TitleBlock__Rating{
+    width: 100%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+}
+.SubNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+    background: #7377a3;
+    height: 2.5rem;
+    border-radius: 9px;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+
+}
+.SubNav__Links{
+    color: #E9D5CA;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+.SubNav__Links:hover{
+    color: #1f194e;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.Media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Media__Poster{
+    height: 400px;
+    width: 500px;
+
+
+}
+#Media__Poster:hover {
+    transform: scale(1.1);
+    transition: all 1 ease-in-out;
+}
+#Media__Video {
+    height: 100%;
+    width: 100%;
+
+}
+
+.Media__SideContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex: 0.75;
+    height: 100%;
+    width:100%;
+}
+.Media__SideContainer-Content{
+    background-color: #0e0b25;
+    margin: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Media__SideContainer-Content:hover{
+    background-color: slateblue;
+    cursor:pointer;
+
+}
+.GenresAndPlot__Genre{
+    padding: 0;
+    display: flex;
+    font-size: 1rem;
+    margin: 2rem 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.GenresAndPlot__GenreChip{
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Credits{
+    margin: 1.5rem 0;
+
+}
+.Credits ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+
+}
+.Credits ul li{
+    margin:0.5rem;
+
+}
+.Credits ul li:hover{
+    cursor: pointer;
+    opacity:0.8;   
+}
+.Review{
+    width:50%;
+    margin: 1.5rem auto;
+
+}
+.Review h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #d8d9e0;
+    margin: 2rem 0 1rem;
+
+}
+
+.Review div{
+    margin: 0.5rem 0;
+}
+.Review input, textarea{
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+    padding: 8px;
+
+}
+
+.Review__Fields{
+    border-radius: 10px;
+    border: 2px solid #363062;
+    transition: 0.3s border;
+}
+.Review__Fields:hover{
+    border: 3px solid green ;
+}
+.Review__Submit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    background-color: #7377a3;
+    height: 2.5rem;
+    border-radius: 9px;
+    box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+.Review__Submit:hover{
+    color: #1f194e;
+    
+    transition: all 0.3s ease-in-out;
+}
